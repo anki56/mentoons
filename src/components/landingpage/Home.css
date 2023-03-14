@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.coverbannerpara {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ytchannelpara {
+    margin-top: 130px;
+    background: radial-gradient(37.4% 50.42% at 36.36% 62.6%, #E5A7E0 0%, #FFFFFF 100%)
+}
+
+.chanpic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.para {
+    font-family: 'roboto';
+    font-size: 50px;
+    color: rgb(10, 4, 43);
+}
+
+.p1 {
+    margin-right: 20px;
+}
+
+.p2 {
+    margin-left: 20px;
+}
+
+.life {
+
+    background-color: #b7abf7;
+}
+
+.imgpartlife,
+.imgpartwork,
+.imgpartmusic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.work {
+    background: #99f2dc;
+}
+
+
+.headinghome{
+    font-size: 50px;
+    color: rgb(38, 6, 110);
+    margin-left: 6rem;
+    margin-bottom: 20px;
+}
+.subheadinghome{
+    font-size: 25px;
+    color: rgb(38, 6, 110);
+    margin-left: 6rem;
+}
+.samepara {
+    font-size: 40px;
+    font-family: 'roboto';
+    padding: 0 100px;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+.bannerbrand {
+    background-color:rgb(18, 4, 97);
+    border-radius: 20px;
+   height: 170vh;
+   padding: 150px 70px 70px 70px;
+}
+.toonland,.mentoons{
+    height: 360px;
+    background-color: rgb(49, 38, 112);
+    border-radius: 20px;
+ 
+}
+.toonland{
+    margin-bottom: 10rem;
+}
+.toonland p,.mentoons p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'roboto';
+    color: white;
+    padding-left: 100px;
+    padding-right:100px;
+}
+.toonland img{
+    margin-top: -6rem;
+    margin-left:23rem;
+    margin-bottom: 100px;
+}
+.mentoons img{
+    margin-top: -7rem;
+    margin-left:23rem;
+    margin-bottom: 70px;
+}
+.brand{
+    padding: 50px;
+}
+ .brandhead{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.brandpara{
+    font-size: 25px;
+    padding:50px 100px;
+    text-align: center;
+}

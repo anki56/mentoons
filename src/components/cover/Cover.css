@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+.firstcover{
+    background-color:rgb(10, 4, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coverbanner{
+   background-color: aqua;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;              
+   justify-content: space-between;
+   margin-top: -5rem;
+   margin-left: 10rem;
+   margin-right: 10rem;
+   border-radius: 20px;
+   height: 170px;
+   padding: 50px;
+}
+.lifeCover{
+   margin-top: -1.5rem;
+}
